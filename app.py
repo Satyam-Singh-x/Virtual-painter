@@ -40,9 +40,11 @@ st.write("Use your hand to draw, erase, and select colors in real time using you
 brushThickness = 15
 eraserThickness = 50
 
-folderPath = 'header-images'
-mylist = os.listdir(folderPath)
-overlay = [cv2.cvtColor(cv2.imread(os.path.join(folderPath, imgPath)), cv2.COLOR_BGR2RGB) for imgPath in mylist]
+
+headerlist=['1.jpg','2.jpg','3.jpg','4.jpg']
+
+    
+overlay = [cv2.cvtColor(cv2.imread(imgPath)), cv2.COLOR_BGR2RGB) for imgPath in headerlist]
 
 if 'xp' not in st.session_state:
     st.session_state.xp = 0
@@ -127,3 +129,4 @@ while st.session_state.streaming:
 
 cap.release()
 st.success("✅ Streaming stopped. Thank you for using Virtual Painter!")
+
