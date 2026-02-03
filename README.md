@@ -43,7 +43,7 @@ streamlit run app.py
 
 Clone the repository:
 
-git clone https://github.com/your-username/virtual-painter.git
+git clone https://github.com/Satyam-Singh-x/virtual-painter.git
 cd virtual-painter
 
 
