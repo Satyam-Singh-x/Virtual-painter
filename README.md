@@ -4,6 +4,8 @@ An elegant, real-time virtual painting web app powered by Streamlit, OpenCV, and
 
 Draw, erase, and change colors using hand gestures without any external hardware—just your webcam.
 
+Live Video Demo: https://www.youtube.com/watch?v=iE6sB0k3Wu4
+
 🚀 Features
 
 ✋ Gesture-Controlled Drawing
